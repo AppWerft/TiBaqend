@@ -4,21 +4,18 @@ Titanium Adapter for Baqend
 
 Build applications with imperceptible load times. 
 
-Setup
------
+Setup Titanium project
+----------------------
 
-To use the Baqend Adapter, just include the module in your ti.app.xml
-
-
+To use the Baqend SDK, just include the module in your ti.app.xml
 ~~~~
  <module>tibaqend</module>
 ~~~~
 .
 Alternatively you can install the Ti.Baqend SDK with gittio. Just type `gittio install tibaqend --global` 
 
-Starting
---------
-
+Starting Baqend
+---------------
 First you have to download and install [baqend](http://www.baqend.com/#download) on your machine. There are builds for linux, osx and windows.
 Alternatively you can you register on http://baqend.com . This will work in beginning of 2016.
 
