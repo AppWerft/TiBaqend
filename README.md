@@ -10,7 +10,7 @@ Setup
 To use the Baqend Adapter, just include the module in your ti.app.xml
 
 Video:
-[![IMAGE ALT TEXT](http://i.imgur.com/mI1SYci.png)](https://www.youtube.com/watch?v=SaqUFK2Nu3A "Baqend")
+[![IMAGE ALT TEXT](http://i.imgur.com/5l2zeEd.png)](https://www.youtube.com/watch?v=SaqUFK2Nu3A "Baqend")
 
 
 
