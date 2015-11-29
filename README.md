@@ -41,9 +41,6 @@ DB.ready(function() {
 });
 ```
 
-
-For more advanced usage of requirejs visit the [requirejs Documentation](http://requirejs.org/docs/start.html).
-
 License
 -------
 
