@@ -19,7 +19,7 @@ Starting
 --------
 
 First you have to download and install [baqend](http://www.baqend.com/#download) on your machine. There are builds for linux, osx and windows.
-
+Alternatively you can you register on http://baqend.com . This will work in beginning of 2016.
 
 Initialize
 ----------
