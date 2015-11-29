@@ -7,12 +7,14 @@ Build applications with imperceptible load times.
 Setup Titanium project
 ----------------------
 
-To use the Baqend SDK, just include the module in your ti.app.xml
+First you have to install the module into your system. You can manually download from [dist folder](https://github.com/AppWerft/TiBaqend/tree/master/dist). 
+Alternatively you can install the Ti.Baqend SDK with gittio. Just type `gittio install tibaqend --global` 
+
+To use the Baqend SDK in your Titanium project, just include the module in your ti.app.xml
 ~~~~
  <module>tibaqend</module>
 ~~~~
-.
-Alternatively you can install the Ti.Baqend SDK with gittio. Just type `gittio install tibaqend --global` 
+
 
 Starting Baqend
 ---------------
