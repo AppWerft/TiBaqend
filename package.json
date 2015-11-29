@@ -1,7 +1,7 @@
 {
   "name": "TiBaqend",
-  "version": "0.10.4-0",
-  "description": "Baqend JavaScript SDK",
+  "version": "1.0.0",
+  "description": "Baqend Java SDK for Titanium",
   "guid": "4a4b0465-c1fc-65b5-f2ab-7c26d80f294c",
   "license": "MIT",
   "author": {
@@ -17,9 +17,14 @@
     "validator": "^3.37.0",
     "websocket": "^1.0.18"
   },
+  "titaniumManifest": {
+    "guid": "5892bd76-346e-05c1-114c-c718f1dc260d",
+    "moduleid" :"tibaqend",
+    "name" : "TiBaqend"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Baqend/js-sdk.git"
+    "url": "https://github.com/AppWerft/TiBaqend.git"
   },
   "bugs": {
     "url": "https://github.com/Baqend/js-sdk/issues"
