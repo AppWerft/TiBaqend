@@ -19,7 +19,8 @@ Starting Baqend
 First you have to download and install [baqend](http://www.baqend.com/#download) on your machine. There are builds for linux, osx and windows.
 Alternatively you can you register on http://baqend.com . This will work in beginning of 2016.
 
-Video:
+The following video shows, how you install baqend and first steps:
+
 [![IMAGE ALT TEXT](http://i.imgur.com/5l2zeEd.png)](https://www.youtube.com/watch?v=SaqUFK2Nu3A "Baqend")
 
 
