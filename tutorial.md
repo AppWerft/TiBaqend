@@ -27,7 +27,7 @@ function onReady() {
   var myTodo = new DB.Todo();
   myTodo.name = "My Todo";
   myTodo.active = false;
-  printItem(myTodo);
+  console.log(todo.toJSON(true)); 
   //We can also use the constructor
   var myOtherTodo = new DB.Todo({
     name : "My other Todo",
@@ -39,10 +39,37 @@ function onReady() {
 DB.connect("http://tutorial.baqend.com");
 //Wait for connection
 DB.ready(onReady);
-
-
-//Boilerplate code below
-function printItem(todo) {
-  console.log(todo.toJSON(true)); 
-}
 ```
+
+Creating Data
+-------------
+
+
+
+To save a Todo we simply call save() on the instance. If no id was defined, it gets assigned a random one.
+
+Baqend objects are Data Access Objects (DAOs), i.e. they expose methods to save, update and delete the respective object. save() and the other DAO methods take optional success and error callbacks which are invoked when the operation succeeds resp. fails:
+
+```javascript
+myTodo.save(function(object) {
+   //Success!
+}, function(error) {
+   //Error!
+});
+```
+
+These methods also return ES6 Promises, which are a nice alternative to callbacks for handling these asynchronous operations. They have methods such as then(myFunction) (success) and catch(myFunction) (error) to avoid nested callback "spaghetti" code.
+
+Loading Data
+------------
+
+Loading data is really easy. If we know the id of an object, we can load it with:
+
+```javascript
+DB.Todo.load(id, function(todo) {
+  //Do something with the todo
+});
+```
+The great thing when working with objects in Baqend is that whenever you load objects that are already used somewhere in your application, you will get the same references. This means that you do not have to deal with different states of objects - it's always the same object.
+
+When an object does not exist or we do not have the permission to read it, load will return null. To manually refresh an object, we can call myTodo.load() which updates our local copy with the newest version from the server.
