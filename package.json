@@ -1,6 +1,6 @@
 {
   "name": "TiBaqend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Baqend Java SDK for Titanium",
   "guid": "4a4b0465-c1fc-65b5-f2ab-7c26d80f294c",
   "license": "MIT",
@@ -13,7 +13,6 @@
   "dependencies": {
     "jahcode": "^1.1.6",
     "lie": "^2.8.1",
-    "node-uuid": "^1.4.3",
     "validator": "^3.37.0",
     "websocket": "^1.0.18"
   },
