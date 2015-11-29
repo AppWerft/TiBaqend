@@ -1,0 +1,10 @@
+version: 1.0.0
+description: Baqend JavaScript SDK
+author: Baqend.com <info@baqend.com>
+license: MIT
+copyright: Copyright © 2015 Baqend.com
+name: TiBaqend
+moduleid: tibaqend
+guid: a60ab315-dc40-662e-b6d7-04f4bf6f5371
+platform: commonjs
+minsdk: 3.2.0.GA
