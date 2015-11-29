@@ -16,6 +16,9 @@
     "validator": "^3.37.0",
     "websocket": "^1.0.18"
   },
+  "nativeDependencies": {
+    "tiws": "^0.1.0"
+  },
   "titaniumManifest": {
     "guid": "5892bd76-346e-05c1-114c-c718f1dc260d",
     "moduleid" :"tibaqend",
