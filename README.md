@@ -9,6 +9,11 @@ Setup
 
 To use the Baqend Adapter, just include the module in your ti.app.xml
 
+Video:
+[![IMAGE ALT TEXT](https://vsis-www.informatik.uni-hamburg.de/oldServer/teaching/ss-15/duvs/img/baqend.271b36cf.png)](https://www.youtube.com/watch?v=SaqUFK2Nu3A "Baqend")
+
+
+
 ~~~~
  <module>tibaqend</module>
 ~~~~
