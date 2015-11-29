@@ -43,7 +43,7 @@ DB.ready(function() {
 });
 ```
 
-More you can find in [Tutorial]('./tutorial.md')
+More you can find in [Tutorial](https://github.com/AppWerft/TiBaqend/blob/master/tutorial.md)
 
 License
 -------
