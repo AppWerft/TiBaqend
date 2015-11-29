@@ -28,7 +28,11 @@ Initialize
 ----------
 
 Before you can actually use the Baqend SDK, you must link the Baqend SDK to your Baqend Account.
-Just call `DB.connect(Ti.App.Properties.getString(YOURENDPOINT));` after including the Baqend SDK.
+Just call 
+```javascript
+DB.connect(Ti.App.Properties.getString(YOURENDPOINT));
+``` 
+after including the Baqend SDK.
 
 The Baqend SDK connects to your Baqend and initialize the SDK. If the connection was successfully established
 the ready callback will be called and the DB can be used to load, query and save objects.
