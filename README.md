@@ -1,21 +1,21 @@
-Baqend JavaScript SDK
-=====================
+Titanium Adapter for Baqend 
+===========================
 
 Setup
 -----
 
-To use the Baqend SDK, just include the baqend.js or baqend.min.js from the dist folder
-at the bottom of your body.
-Alternatively you can install the Baqend SDK with npm. Just type `npm install --save-dev baqend` 
+To use the Baqend Adapter, just include the module in your ti.app.xml
+
+~~~~
+ <module>ti.appwerft.baqend</module>
+~~~~
+.
+Alternatively you can install the Ti.Baqend SDK with gittio. Just type `gittio install ti.appwerft.baqend` 
 
 ```html
-<!-- for development -->
-<script type="text/javascript" src="dist/baqend.js"></script>
-<!-- for production -->
-<script type="text/javascript" src="dist/baqend.min.js"></script>
 ```
 
-The Baqend SDK provides a global `DB` variable by default.
+Ti.Baqend  a global `DB` variable by default.
 
 Initialize
 ----------

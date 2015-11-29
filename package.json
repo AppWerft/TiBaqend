@@ -1,7 +1,8 @@
 {
-  "name": "baqend",
+  "name": "TiBaqend",
   "version": "0.10.4-0",
   "description": "Baqend JavaScript SDK",
+  "guid": "4a4b0465-c1fc-65b5-f2ab-7c26d80f294c",
   "license": "MIT",
   "author": {
     "name": "Baqend.com",
